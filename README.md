@@ -93,7 +93,7 @@ flutter pub get
 flutter run
 ```
 
-##  App Screens Flow
+##  Screen's Flow
 
 ```mermaid
 flowchart LR
