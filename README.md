@@ -58,3 +58,6 @@ Follow the steps below to run the project locally:
 ```bash
 git clone <your-repo-url>
 cd your-repo-folder
+```
+
+
