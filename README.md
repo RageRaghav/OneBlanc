@@ -1,90 +1,60 @@
-🍽️ Restaurant Food Ordering App
-A fully functional and modern Flutter-based mobile application designed to simplify food ordering from local restaurants. This app provides a seamless user experience — from discovering cuisines and exploring menus to placing orders and applying custom filters based on budget, cuisine type, and ratings.
+# Food Ordering App
 
-✨ Features
-🏠 Home Screen
-Cuisines Showcase: Scrollable horizontal view to explore available cuisine types (e.g., North Indian, Chinese).
+A Flutter-based mobile application for a smooth and intuitive food ordering experience. This app allows users to browse cuisines, filter items based on budget and rating, explore restaurant menus, and place orders with a clear breakdown of costs.
 
-Top Dishes: Displays top-rated dishes with star ratings to guide the user’s choice.
+---
 
-Previous Orders: Users can view their past orders with details like order date, time, order ID, total amount, and a button to re-view the order.
+## Demo Video
 
-🎛️ Filters Screen
-Cuisine Type Dropdown: Select from a variety of cuisine types.
+Watch the app in action:  
+[▶️ View Demo](https://drive.google.com/file/d/1075Do8MkqyMXkcBH02WftBy9vgBv91Zi/view?usp=sharing)
 
-Price Range Slider: Set a minimum and maximum price to match your budget.
+---
 
-Minimum Rating Selector: Filter dishes based on the lowest acceptable rating.
+## Features
 
-Clear Filters Button: Instantly reset all selected filters.
+### Home Screen
+- Browse available cuisine types in a horizontal scroll view.
+- View top-rated dishes with star ratings.
+- See your most recent order including date/time, order ID, and total bill.
 
-Apply Filters Button: Filters are applied and the home screen updates accordingly.
+### Filters
+- Select cuisine type from a dropdown.
+- Define price range with minimum and maximum values.
+- Set a minimum rating filter using a slider.
+- Option to clear all filters.
+- Apply filters to update home screen results.
 
-📋 Menu Screen
-Dynamic Menu Listing: Displays a restaurant's menu with images, names, and prices of items.
+### Menu Screen
+- Displays a list of menu items with image, name, and price.
+- Add items to the cart using the "+" button.
+- Navigate to checkout using the "Proceed to Checkout" button.
 
-Item Quantity Control: Users can add items to their order by tapping the "+" icon.
+### Place Order Screen
+- Shows selected items with quantity and price.
+- Automatically calculates:
+  - Subtotal
+  - Tax (5%)
+  - Grand total
+- Confirm and place the order using the "Place Order" button.
 
-Cart Summary: Button at the bottom of the screen allows users to proceed to checkout.
+---
 
-🧾 Order Placement Screen
-Order Summary: Lists all selected items with quantity and individual prices.
+## Tech Stack
 
-Cost Breakdown:
+- **Flutter** – UI development
+- **Dart** – Application logic
+- **Provider** – State management
+- **Material Design** – UI components
 
-Subtotal (Net Total)
+---
 
-Tax Calculation (5% CGST + SGST)
+## Getting Started
 
-Final Grand Total
+Follow the steps below to run the project locally:
 
-Place Order Button: Confirms and places the order.
+### 1. Clone the Repository
 
-🛠️ Technologies Used
-Flutter: Frontend framework for cross-platform mobile development.
-
-Dart: Programming language used for writing business logic.
-
-Provider: For state management (filters, cart).
-
-Material Design: UI/UX styling components.
-
-🧪 Testing & Validation
-Real-time Data Handling: Menu and order details update based on filter selections and user interactions.
-
-UI Responsiveness: Smooth and consistent UI experience across various device sizes.
-
-📌 Future Enhancements (Optional Ideas)
-Integration with a backend for storing and retrieving real orders and user data.
-
-Authentication (Login/Signup).
-
-Real-time notifications for order updates.
-
-Multiple restaurant support.
-
-📸 App Screenshots
-Filters	Home	Menu	Order
-
-📦 Setup Instructions
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone <your_repo_url>
-cd food_ordering_app
-Install dependencies:
-
-bash
-Copy
-Edit
-flutter pub get
-Run the app:
-
-bash
-Copy
-Edit
-flutter run
-👨‍💻 Developer
-Made with ❤️ using Flutter and Dart to deliver an elegant food ordering experience.
+```bash
+git clone <your-repo-url>
+cd your-repo-folder
