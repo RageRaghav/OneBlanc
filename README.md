@@ -42,6 +42,22 @@ Watch the app in action:
   - Grand total
 - Confirm and place the order using the "Place Order" button.
 
+## 🛰️ API Integration
+
+- Communicates with a backend server using **RESTful APIs** to fetch and update data.
+- Uses **HTTP requests** (GET/POST) to retrieve:
+  - Cuisine types  
+  - Menu items  
+  - Filtered dish results  
+  - Order details and history
+- Parses **JSON responses** and maps them to appropriate Dart models for smooth UI rendering.
+- Implements **Provider** for efficient state management and data propagation across screens.
+- Ensures consistent user experience by:
+  - Updating UI reactively based on API responses  
+  - Caching and managing state where needed
+- Includes **basic error handling** for failed requests or invalid responses to avoid crashes and improve reliability.
+- Designed to scale easily with additional API endpoints (e.g., authentication, real-time order tracking).
+
 ---
 
 ## Tech Stack
@@ -50,6 +66,7 @@ Watch the app in action:
 - **Dart** – Application logic
 - **Provider** – State management
 - **Material Design** – UI components
+- **OneBlanc APIs** – API handling 
 
 ---
 
