@@ -60,4 +60,18 @@ git clone <your-repo-url>
 cd your-repo-folder
 ```
 
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd your-repo-folder
+```
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd your-repo-folder
+```
+
 
