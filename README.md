@@ -75,11 +75,17 @@ flutter run
 ## 🧭 App Flowchart
 
 ```mermaid
-graph TD
-    A[Home Screen] --> B[Menu Card Screen]
-    A --> C[Filters Screen]
-    C --> D[Your Preferences Screen]
-    B --> E[Place Order Screen]
+flowchart LR
+    A[Home Screen]:::home --> B[Menu Card Screen]:::menu
+    A --> C[Filters Screen]:::filter
+    C --> D[Your Preferences Screen]:::prefs
+    B --> E[Place Order Screen]:::order
     D --> E
+
+    classDef home fill:#d1c4e9,stroke:#5e35b1,color:#000;
+    classDef menu fill:#ffccbc,stroke:#e64a19,color:#000;
+    classDef filter fill:#b2ebf2,stroke:#00acc1,color:#000;
+    classDef prefs fill:#ffe082,stroke:#ffa000,color:#000;
+    classDef order fill:#c8e6c9,stroke:#43a047,color:#000;
 ```
 
