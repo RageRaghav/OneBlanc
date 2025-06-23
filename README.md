@@ -60,18 +60,16 @@ git clone <your-repo-url>
 cd your-repo-folder
 ```
 
-### 1. Clone the Repository
+### 1. Add Dependencies
 
 ```bash
-git clone <your-repo-url>
-cd your-repo-folder
+flutter pub get
 ```
 
-### 1. Clone the Repository
+### 3. Run the App
 
 ```bash
-git clone <your-repo-url>
-cd your-repo-folder
+flutter run
 ```
 
 
