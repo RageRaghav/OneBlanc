@@ -1,6 +1,7 @@
 # Food Ordering App
 
-![Untitled design (3)](https://github.com/user-attachments/assets/27c8ef13-d3aa-4ad5-bb35-3b807837a3da)
+![image](https://github.com/user-attachments/assets/8ff9d49b-6ee1-4b57-b0e5-d51350693992)
+
 
 
 A Flutter-based mobile application for a smooth and intuitive food ordering experience. This app allows users to browse cuisines, filter items based on budget and rating, explore restaurant menus, and place orders with a clear breakdown of costs.
