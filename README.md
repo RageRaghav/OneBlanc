@@ -72,4 +72,14 @@ flutter pub get
 flutter run
 ```
 
+## 🧭 App Flowchart
+
+```mermaid
+graph TD
+    A[Home Screen] --> B[Menu Card Screen]
+    A --> C[Filters Screen]
+    C --> D[Your Preferences Screen]
+    B --> E[Place Order Screen]
+    D --> E
+```
 
