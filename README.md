@@ -77,7 +77,7 @@ Follow the steps below to run the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <[Restaurent App](https://github.com/RageRaghav/Restaurent-App)>
 cd your-repo-folder
 ```
 
